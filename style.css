@@ -5,24 +5,24 @@ body {
 }
 
 .navigation {
-    position: fixed; /* Keep the navigation at the same position */
-    top: 0; /* Position it at the top of the page */
-    left: 0; /* Position it at the left of the page */
-    width: 100%; /* Take up the full width of the page */
-    background-color: #f0f0f0; /* Add a background color to make it visible */
-    padding: 10px; /* Add some padding to make it look better */
-    text-align: center; /* Center the navigation links */
-    z-index: 1; /* Make sure it's on top of the slides */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
 }
 
 .navigation a {
-    margin: 10px; /* Add some space between the links */
-    text-decoration: none; /* Remove the underline */
-    color: #000; /* Change the text color */
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
 }
 
 .navigation a:hover {
-    color: #666; /* Change the text color on hover */
+    color: #666;
 }
 
 .slide {
@@ -50,10 +50,11 @@ body {
     border-radius: 8px;
 }
 
-h2 {
+h1 {
     margin: 0;
 }
 
-p {
+h2 {
     margin: 10px 0 0;
+    font-weight: lighter;
 }
